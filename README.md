@@ -121,17 +121,25 @@ Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente 
 git merge --abort
 
 # Comando para ver la linea de tiempo del proyecto
- git log --all --graph --decorate --oneline
+ *git log --all --graph --decorate --oneline*
 
- simplificado: alias arbolgit = "git log --all --graph --decorate --oneline"
+ simplificado: *alias arbolgit = "git log --all --graph --decorate --oneline"*
 
  se guardara el comando en la terminal entonces cuando necesitas ejecutar de nuevo bastaría escribir el comando
 
- arbolgit
+ *arbolgit*
 
  # Crear tags (o versiones)
 
-$ git tag -a v0.1 -m "Primera version de mi aplicación" 88f86f7
+*$ git tag -a v0.1 -m "Primera version de mi aplicación" 88f86f7*
 
-### Ver los tags
-git show-ref --tags
+### **Ver los tags**
+*git show-ref --tags*
+### **Enviar tags remoto**
+*git push origin --tags*
+
+### **borrar tags en remoto**
+*git push origin :refs/tags/nombredeltag*
+
+
+
