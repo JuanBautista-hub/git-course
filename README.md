@@ -111,6 +111,8 @@ Las ramas son la manera de hacer cambios en nuestro proyecto sin afectar el fluj
 git checkout master
 git merge cabecera
 
+# Conflicto  entre ramas
+
 
 
 
