@@ -106,7 +106,10 @@ Las ramas son la manera de hacer cambios en nuestro proyecto sin afectar el fluj
 **git reset id-commit**: Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado.
 
 **git checkout rama-o-id-commit:** Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado
-# Conflictos al unir las ramas
+# Fusion de ramas
+
+git checkout master
+git merge cabecera
 
 
 
